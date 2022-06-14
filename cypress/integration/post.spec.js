@@ -1,5 +1,3 @@
-import { isTypedArray } from "cypress/types/lodash"
-
 
 describe('post character', function () {
 

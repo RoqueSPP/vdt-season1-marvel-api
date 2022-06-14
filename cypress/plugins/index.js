@@ -8,7 +8,13 @@
 // You can read more here:
 // https://on.cypress.io/plugins-guide
 // ***********************************************************
+const allureWriter = require('@shelex/cypress-allure-plugin/writer');
+// import allureWriter from "@shelex/cypress-allure-plugin/writer";
 
+module.exports = (on, config) => {
+    allureWriter(on, config);
+    return config;
+};
 // This function is called when a project is opened or re-opened (e.g. due to
 // the project's config changing)
 

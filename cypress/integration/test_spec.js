@@ -1,5 +1,5 @@
 
-import scenarios from '../pages/payload'
+import scenarios from '../utils/constants/constants'
 
 describe('vlidar campos', function () {
     before(function () {

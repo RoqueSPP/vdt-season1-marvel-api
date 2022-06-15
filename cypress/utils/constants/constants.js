@@ -33,4 +33,5 @@
             'expected_message': '"active" is required'
         }
 ]
+
 export default scenarios;
